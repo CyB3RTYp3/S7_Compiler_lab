@@ -1,0 +1,15 @@
+Line No 	 token 	 lexem 
+0 	 0 	 special Symbol 	 #
+0 	 1 	 Identifier 	 include
+0 	 2 	 Identifier 	 stdio
+0 	 3 	 Identifier 	 h
+1 	 4 	 Identifier 	 void
+1 	 5 	 Identifier 	 main
+1 	 6 	 special Symbol 	 )
+1 	 7 	 special Symbol 	 {
+2 	 8 	 Identifier 	 printf
+2 	 9 	 Identifier 	 Hello
+2 	 10 	 Identifier 	 world
+2 	 11 	 special Symbol 	 )
+2 	 12 	 special Symbol 	 ;
+3 	 13 	 special Symbol 	 }
