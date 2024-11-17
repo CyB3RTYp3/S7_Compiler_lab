@@ -18,7 +18,7 @@ void check(int len){
         if(stack[k]=='E' && stack[k+1]=='+'&& stack[k+2]=='E'){
             stack[k]='E';
             stack[k+1]='\0';
-            stack[i+2]='\0';
+            stack[k+2]='\0';
             printf("\n$%s\t%s$\t%s",stack,arr,reduce);
             i=i-2;
         }
@@ -27,7 +27,7 @@ void check(int len){
         if(stack[k]=='E' && stack[k+1]=='*'&& stack[k+2]=='E'){
             stack[k]='E';
             stack[k+1]='\0';
-            stack[i+2]='\0';
+            stack[k+2]='\0';
             printf("\n$%s\t%s$\t%s",stack,arr,reduce);
             i=i-2;
         }
@@ -36,7 +36,7 @@ void check(int len){
         if(stack[k]=='(' && stack[k+1]=='E'&& stack[k+2]==')'){
             stack[k]='E';
             stack[k+1]='\0';
-            stack[i+2]='\0';
+            stack[k+2]='\0';
             printf("\n$%s\t%s$\t%s",stack,arr,reduce);
             i=i-2;
         }
